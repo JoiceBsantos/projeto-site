@@ -1,0 +1,25 @@
+/* Reset universal styles - aplica estilos globais a todos os elementos */
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+    /* Define a família de fontes, com Arial como prioridade e fallbacks para compatibilidade */
+    font-size: 16px;
+    /* Define o tamanho padrão da fonte em 16 pixels */
+}
+/* Body background - define o fundo da página */
+body{
+    background-color: rgb(204, 157, 248); 
+    /* Cor de fundo lilás clara para o corpo da página */
+}
+/* Main container styles - estilos para o elemento principal */
+ main{
+    background-color: white;           
+    /* Fundo branco para o container principal */
+    width: 500px;                        
+    /* Largura fixa de 500 pixels */
+    margin: auto;                        
+    /* Centraliza o elemento horizontalmente */
+    padding: 10px;                      
+     /* Espaçamento interno de 10 pixels em todos os lados */
+    box-shadow: 3px 3px 5px rgb(140, 123, 123);                                                
+    /* Sombra sutil com deslocamento horizontal/vertical de 3px, blur de 5px e cor cinza */
+ }
