@@ -30,10 +30,34 @@ body{
     /* Sombra sutil com deslocamento horizontal/vertical de 3px, blur de 5px e cor cinza */
  }
 
+ iframe{
+    width: 100%; 
+    /* Faz o iframe ocupar 100% da largura do container */
+    max-width: 560px; 
+    /* Limita a largura máxima ao tamanho original */
+    aspect-ratio: 16 / 9; 
+    /* Mantém a proporção 16:9 do vídeo */
+    display: block; 
+    /* Bloco para evitar espaços extras */
+    margin: 20px auto; 
+    /* Margem vertical para separar do conteúdo e centraliza horizontalmente */
+ }
+
+ p{
+    font-family: Georgia, serif;
+    /* Muda a fonte para Georgia com fallback para serif */
+    font-size: 14px;
+    /* Reduz o tamanho da fonte */
+    text-align: justify;
+    /* Alinha o texto justificado */
+    line-height: 1.6;
+    /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+ }
+
  img.lado{
     float: right; 
     /* Faz a imagem flutuar à direita, permitindo que o texto envolva ao redor dela */
-    margin-right: 10px; 
-    /* Adiciona uma margem à direita de 10 pixels para separar a imagem do texto */
+    margin: 0 0 20px 30px;
+    /* Margem: superior, direita, inferior, esquerda - cria espaço generoso ao redor */
  }
  
