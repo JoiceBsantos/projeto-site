@@ -29,4 +29,11 @@ body{
     box-shadow: 3px 3px 5px rgb(140, 123, 123); 
     /* Sombra sutil com deslocamento horizontal/vertical de 3px, blur de 5px e cor cinza */
  }
+
+ img.lado{
+    float: right; 
+    /* Faz a imagem flutuar à direita, permitindo que o texto envolva ao redor dela */
+    margin-right: 10px; 
+    /* Adiciona uma margem à direita de 10 pixels para separar a imagem do texto */
+ }
  
