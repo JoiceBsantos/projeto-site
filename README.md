@@ -75,7 +75,7 @@ Este projeto representa meu primeiro contato prático mais estruturado com:
 
 ## 🌍 Acesse o projeto
 
-👉 (adicione aqui o link do GitHub Pages quando publicar)
+👉 (https://joicebsantos.github.io/projeto-site/)
 
 ---
 
